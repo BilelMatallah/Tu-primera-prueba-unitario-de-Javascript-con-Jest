@@ -23,6 +23,9 @@ const fromYenToPound = function(valueInYen){
     return yenToPound;
 }
 
+console.log(fromEuroToDollar(1))
+console.log(fromDollarToYen(2))
 console.log(fromYenToPound(3))
+
 
 module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYenToPound};
